@@ -23,10 +23,6 @@ module.exports = [
         ...globals.node
       }
     }, 
-    env: {
-      "node": true,
-      "jest": true
-    },
     rules: {
       'indent': ['error', 2],
       'linebreak-style': ['error', 'unix'],
@@ -37,6 +33,15 @@ module.exports = [
       'object-curly-spacing': ['error', 'always'],
       'arrow-spacing': ['error', { 'before': true, 'after': true }],
       'no-console': 0
+    }
+  },
+  {
+    files: ['jest.setup.js'],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+        ...globals.jest
+      }
     }
   },
   {
