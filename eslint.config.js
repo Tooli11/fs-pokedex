@@ -22,6 +22,10 @@ module.exports = [
       globals: {
         ...globals.node
       }
+    }, 
+    "env": {
+      "node": true,
+      "jest": true
     },
     rules: {
       'indent': ['error', 2],
