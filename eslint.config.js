@@ -23,7 +23,7 @@ module.exports = [
         ...globals.node
       }
     }, 
-    "env": {
+    env: {
       "node": true,
       "jest": true
     },
