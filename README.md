@@ -2,6 +2,8 @@
 
 This repository is used for the CI/CD module of the Full Stack Open course
 
+Link to fly app: https://fs-pokedex-empty-meadow-9306.fly.dev/
+
 ## Commands
 
 Start by running `npm install` inside the project folder
